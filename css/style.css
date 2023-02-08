@@ -36,6 +36,7 @@
 }
 
 /* HEADER */
+
 header {
     background-color: rgb(255, 102, 0);
     height: 80px;
@@ -124,4 +125,25 @@ img {
 
 .image:hover .retro-img {
     display: block;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(25, 25, 26);
+    height: 80px;
+    margin-top: 50px;
+}
+.scritte-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.scritte-footer-start {
+    color: white;
+    padding-top: 20px;
+}
+
+.scritte-footer-end {
+    color: white;
+    padding-top: 20px;
 }
