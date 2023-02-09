@@ -11,8 +11,7 @@
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .flex {
@@ -23,6 +22,10 @@
 
 .col {
     width: calc((100% / 3) - (40px / 3));
+}
+
+a {
+    color: inherit;
 }
 
 /* COLORI */
@@ -40,32 +43,44 @@
 header {
     background-color: rgb(255, 102, 0);
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;    
 }
 
 .scritte-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 20px;
 }
 
-ul {
+.sesso {
     list-style-type: none;
+    width: 40%;
 }
 
 .icon {
+    list-style-type: none;
     justify-content: flex-end;
+    width: 40%;
 }
 
 .logo {
-    width: 15%;
+    width: 20%;
 }
 
 /* MAIN */
 
-.card {
+.card1 {
     position: relative;
-    margin-top: 30px;
+    margin-top: 100px;
+}
+
+.card2 {
+    position: relative;
+    margin-top: 20px;
 }
 
 .image {
@@ -107,10 +122,6 @@ img {
     font-size: 2rem;
 }
 
-.barrato {
-    text-decoration: line-through;
-}
-
 .heart:hover {
     color: red;
 }
@@ -124,7 +135,7 @@ img {
 }
 
 .image:hover .retro-img {
-    display: block;
+    display: inline-block;
 }
 
 /* FOOTER */
@@ -134,10 +145,12 @@ footer {
     height: 80px;
     margin-top: 50px;
 }
+
 .scritte-footer {
     display: flex;
     justify-content: space-between;
 }
+
 .scritte-footer-start {
     color: white;
     padding-top: 20px;
@@ -145,5 +158,14 @@ footer {
 
 .scritte-footer-end {
     color: white;
-    padding-top: 20px;
+    padding-top: 20px;        
+}
+
+h5 {
+    display: flex;
+    justify-content: flex-end;
+}
+.social {
+    list-style-type: none; 
+    justify-content: flex-end;
 }
